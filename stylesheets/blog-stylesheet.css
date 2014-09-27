@@ -48,6 +48,11 @@ a {
 	padding-top: 45px;
 }
 
+#index {
+	text-align: center;
+	padding-top: 50px;
+}
+
 #blogpost {
 	position: absolute;
 	width: 800px;
@@ -78,8 +83,10 @@ a {
 }
 
 #copyright {
-	margin-left: 100px;
+	left: 100px;
 	color: white;
-	padding-top: 150px;
 	font-weight: bold;
+	bottom: 0;
+	position: absolute;
+	padding-bottom: 10px;
 }
