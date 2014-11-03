@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>David's Blog</title>
+		<link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+	</head>
+	<body>
+		<div id="leftcolumn">
+			<div id="picture">
+				<img src="http://33.media.tumblr.com/avatar_4a72e892d101_128.png" width= "100" height= "100"/>
+			</div>
+			<div id="name">DAVID.K</div>
+			<div id="road">Road to Software Engineering</div>
+			<div id="social">           
+				<a href="http://www.github.com"><img src="../imgs/github.png"/></a>
+				<a href="http://www.facebook.com"><img src="../imgs/facebook.png"/></a>
+				<a href="http://www.google.com"><img src="../imgs/google.png"/></a><br>
+				<a href="http://www.twitter.com"><img src="../imgs/tweet.png"/></a>
+				<a href="http://www.instagram.com"><img src="../imgs/instagram.png"/></a>
+				<a href="http://www.linkedin.com"><img src="../imgs/linkedin.png"/></a>
+			</div>
+			<div id="index"><a href="../index.html"><img src="../imgs/home.png" width= "45" height= "45"/></a></div>
+			<div id="copyright">&copy;David C. Kim</div>
+		</div>
+		<div id="blogpost"> <!-- don't copy blogpost when making new entry. start from blogtitle -->
+			<div id="title">Ruby's ".each" For Javascript</div> <!-- insert title here -->
+				<div id="date">11/02/2014</div> <!-- insert your date here -->
+					<div id="content">
+					<p>A long long time ago, in a galaxy far away when I was a young Jedi, I was told by seasoned programmers that it is a lot easier to pick up other languages once you learn one of them. They were right.. somewhat, only they forgot to mention that the terminologies could overlap but not mean the same thing. One thing I was pretty accustomed to in Ruby was utilizing the each method to iterate over element of arrays or data structures. In Ruby if you wanted to print out all the numbers within an array you would use : 
+					<br><b>[1, 2, 3, 4, 5].each { |element| puts "#{element}" }.</b><br>
+					To do the same thing in JavaScript you would something like this:
+					<br> var array = [1, 2, 3, 4, 5];
+					<br> for (var i = 0; i < i.length; ++i) {
+  					<br> var element = a[i];
+  					<br> alert(i + ": " + element);
+                    <br> }
+                    </p>
+                    <p>
+                    Thing like this make me appreciate the beauty of Ruby a lot more. Things in JavaScript seem so stretched out. Technically you could create a function that would do the same thing as each, but the simplicity of Ruby makes it a lot more appealing and attracts in a lot of soon-to-be programmers.
+                    </p>
+					</div>
+		</div>
+	</body>
+</html>
