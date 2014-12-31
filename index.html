@@ -1,30 +1,48 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>David's Fridge</title>
-		<link rel="stylesheet" type="text/css" href="/stylesheets/index.css">
-	</head>
-	<body>
-		<div id="topbanner">
-			<h2>David C. Kim</h2>
-			<img id="arrow" src="http://turnkeyrentalhouses.com/images/red_arrowright.png" width= 50 height= 70>
-			<a id="homebutton" href="/index.html"><img src="/imgs/home.png" width= 50 height= 50/></a>
-		</div>
-		<div id="navbar">
-			<ul>
-				<a href="/about.html"><li>About Me</li></a>
-				<a href="/portfolio.html"><li>Porfolio</li></a>
-				<a href="/blog/blog-index.html"><li>Blog</li></a>
-				<a href="/contact.html"><li>Contact Me</li></a>
-			</ul>
-		</div>
-		<div id="main">
-			<a href="/cheatsheet.html"> JavaScript Object Cheat Sheet by David Kim and Richard McCluskey </a><br>
-			<a href="/gps1-2.html"> Click here to view my GPS Collaborated Website</a>
-			<p> Welcome to the uncharted territories of David Kim's thoughts.<br>Keep in mind, everything you see here is in rough sketch mode, nothing is finalized.<br>Updated will be made frequently, so make sure to visit often!<br>Bob Loblaw's Law Blog?</p>
-		</div>
-		<div id="footer">
-			<p> &copy;David C. Kim</p>
-		</div>
-	</body>
+  <head>
+    <title>David's Fridge</title>
+    <link href = "./stylesheets/bootstrap.min.css" rel = "stylesheet">
+    <link href = "./stylesheets/styles.css" rel = "stylesheet">
+    <link href = "./stylesheets/application.css" rel = "stylesheet">
+	<link rel="stylesheet" type="text/css" href="./stylesheets/index.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="main1">
+      <img class="wallpaper1" src="./imgs/city-wallpaper.jpg">
+      <p class="centertext">APPRENTICE <font color="#2ECCFA">+</font>   FREE THINKER</p>
+      <p class="subtext">CODING <font color="#2ECCFA">-</font> FOOTBALL <font color="#2ECCFA">-</font> SPEARFISHING</p>
+    </div>
+    <div id="main2">
+      <div class="blogsample">
+        <img class="blogimage" src="http://upload.wikimedia.org/wikipedia/commons/1/1a/Bachalpseeflowers.jpg">
+        <h2 class="blogtitle">Most Recent Blog Post</h2>
+      </div>
+      <div class="porfolio">
+        <img class="portfolioimage" src="http://img0.mxstatic.com/wallpapers/0f458fce470938f1695a8f9865485f17_large.jpeg">
+        <h2 class="portfoliotitle">View My Past Works</h2>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="icons">
+        <a href="http://www.twitter.com/david_c_kim"><img class="icon twitter" src="./imgs/twitter.png"></a>
+        <a href="http://www.github.com/davidckim"><img class="icon github" src="./imgs/github.png"></a>
+        <a href="http://www.linkedin.com"><img class="icon linkedin" src="./imgs/linkedin.png"></a>
+      </div>
+      <p class="copyright">&copy;2014 David C Kim</p>
+    </div>
+
+    <nav class="banner">
+      <h1 class="firstname">DA<font color="#FFBF00">V</font>ID</h1>
+      <h1 class="lastname">KI<font color="#FFBF00">M</font></h1>
+      <div class="menu">
+        <a id="about" href="#main2">ABOUT</a>
+        <a id="blog" href="#main3">PORTFOLIO</a>
+        <a id="portfolio" href="#main4">CONTACT</a>
+        <a id="contact" href="#main5">BLOG</a>
+      </div>
+    </nav>
+  </body>
 </html>
+
