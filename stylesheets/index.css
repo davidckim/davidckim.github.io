@@ -7,7 +7,7 @@ body {
 .menu a {
   color: white;
   text-decoration: none;
-  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Oswald;
   padding: 15px 15px 15px 15px;
   height: 50px;
 }
@@ -19,54 +19,57 @@ body {
 }
 
 .firstname {
-  font-size: 30px;
+  font-size: 50px;
   color: white;
   font-weight: bold;
   position: absolute;
-  top: -11px;
+  top: 0px;
   left: 40px;
-  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Oswald;
 }
 
 .lastname {
-  font-size: 30px;
+  font-size: 50px;
   color: white;
   position: absolute;
-  top: -11px;
-  left: 150px;
-  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  top: 0px;
+  left: 174px;
+  font-family: Oswald;
 }
 
 .menu {
   position: absolute;
-  right: 20px;
+  right: 180px;
+  font-size: 24px;
+  top: 45px;
 }
 
 .banner {
   background-color: #333333;
-  height: 50px;
+  height: 100px;
   width: 100%;
   line-height: 50px;
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   z-index: 100;
+  background: rgba(128,128,128,0.6);
 }
+
+.bottom-banner {
+  background-color: #333333;
+  height: 100px;
+  width: 100%;
+  line-height: 50px;
+  position: absolute;
+  bottom: 100px;
+  z-index: 100;
+  background: rgba(128,128,128,0.6);
+}
+
 
 #main1 {
   display: inline;
-}
-
-.wallpaper1 {
-  z-index: 100;
-  position: relative;
-  width: 100%;
-  top: 0;
-  left: 0;
-  display: inline;
-  background-position: center;
-  background-attachment: fixed;
-  /*box-shadow: 0px 16px 12px 0px #424242;*/
 }
 
 .centertext {
@@ -79,7 +82,7 @@ body {
   font-size: 3.8vw;
   letter-spacing: 4px;
   color: white;
-  font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-family: Oswald;
 }
 
 .subtext {
@@ -89,50 +92,10 @@ body {
   margin-top: 30%;
   width: 100%;
   text-align: center; 
-  font-size: 1.1vw;
+  font-size: 1.5vw;
   letter-spacing: 4px;
-  color: white;
-  font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-}
-
-#main2 {
-  width: 100%;
-  height: 400px;
-  background-color: #D8D8D8;
-}
-
-.blogsample {
-  z-index: 99;
-  position: relative;
-  top: 5px;
-  left: 5px;
-  width: 48.5%;
-  height: 250px;
-  overflow: hidden;
-  display: inline-block;
-  clear: right;
-}
-
-.blogtitle {
-  z-index: 100;
-  width: 100%;
-  background-color: #00FFFF;
-  opacity: 0.4;
-  position: absolute;
-  color: black;
-  font-weight: bold;
-  text-align: center;
-}
-
-.portfoliotitle{
-  z-index: 100;
-  width: 100%;
-  background-color: #64FE2E;
-  opacity: 0.4;
-  position: absolute;
-  color: black;
-  font-weight: bold;
-  text-align: center;
+  color: #E6E6E6;
+  font-family: Oswald;
 }
 
 .porfolio {
@@ -148,26 +111,6 @@ body {
   float: right;
 }
 
-.portfolioimage {
-}
-
-.icons {
-  text-align: center;
-  margin-bottom: 7px;
-  letter-spacing: 20px;
-}
-
-.icon {
-  width: 45px;
-  height: 45px;
-}
-
-.copyright {
-  color: black;
-  text-align: center;
-  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-}
-
 .wrapper {
   min-height: 100%;
   position: relative;
@@ -177,7 +120,7 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 60%;
+  width: 100%;
   min-width: 100%;
   min-height: 100%;
   z-index: -1000;
