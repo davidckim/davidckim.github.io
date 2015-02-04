@@ -127,7 +127,13 @@ body {
   overflow: hidden;
 }
 
-
+#sailboat {
+  float:left;
+  margin-left: 3%;
+  width:50px;
+  height: 100px;
+  z-index: 100;
+}
 
 
 
