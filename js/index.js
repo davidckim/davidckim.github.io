@@ -1,11 +1,6 @@
 $(document).ready(function() {
+  bindEvents();
 
-  $('.draggable').draggable();
-  $('.draggable').mousedown(function() {
-  	var $text_box = $(this).find('p');
-  	$text_box.fadeOut('slow')
-  });
-  
 });
 
 
