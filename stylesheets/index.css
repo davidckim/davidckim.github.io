@@ -88,26 +88,37 @@ a:link {
   border-color: #58ACFA;
   border-width: 2px 0 2px 0;
   width: 120px;
-  margin: 60px;
+  margin: 50px;
 }
 
 
 
 
 @media only screen and (max-width: 740px) {
-
   .centertext { 
     font-size: 18px;
     top: 270px;
   }
-
   .nav {
-    margin: 20px;
+    margin: 30px;
     border-width: 2px;
 
   }
-
 }
+
+
+
+@media only screen and (max-width: 592px) {
+  .nav {
+    margin: 10px 70px 10px 70px;
+    padding: 0 40px 0 40px;
+  }
+
+  .navigation {
+    top: 450px;
+  }
+}
+
 
 
 
