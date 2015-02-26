@@ -94,7 +94,10 @@ a:link {
 
 
 
-@media only screen and (max-width: 740px) {
+@media only screen 
+  and (max-width: 740px),
+  only screen and (max-device-width: 740px) 
+{
   .centertext { 
     font-size: 18px;
     top: 270px;
@@ -108,7 +111,10 @@ a:link {
 
 
 
-@media only screen and (max-width: 592px) {
+@media only screen 
+  and (max-width: 592px), 
+  only screen and (max-device-width: 592px) 
+{
   .nav {
     margin: 10px 70px 10px 70px;
     padding: 0 40px 0 40px;
