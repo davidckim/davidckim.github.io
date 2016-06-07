@@ -1,1 +1,0 @@
-davidckim.github.io
