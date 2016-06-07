@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,300,600);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*=====================================================================*/
+
+.left-nav {
+	height: 100vh;
+	width: 20%;
+	float: left;
+	background-color: #E6E6E6;
+	font-family: 'Source Code Pro';
+	color: black;
+	overflow: hidden;
+	min-width: 200px
+}
+
+.left-nav h1 {
+	font-family: 'Source Code Pro';
+	font-weight: 600;
+	color: black;
+	padding: 7px 10px;
+	font-style: 12px;
+}
+
+.left-nav p {
+	font-family: 'Source Code Pro';
+	color: #8F908A;
+	padding: 7px 10px;
+	font-weight: 600;
+	font-size: 16px
+}
+
+.left-nav a {
+	display: block;
+	padding: 7px 40px;
+	font-size: 14px;
+	text-decoration: none;
+	color: black;
+}
+
+.nav-item span:before {
+	content: '\25B9';
+}
+
+.active span:before {
+	content: '\25BF';
+}
+
+.active {
+
+}
+
+.main-content {
+	position: relative;
+	height: 100vh;
+	width: 80%;
+	float: left;
+	background-color: #272822;
+	overflow: hidden;
+	color: #F8F8F2;
+	font-family: 'Source Code Pro';
+}
+
+#folder-tab {
+	width: 10%;
+	padding: 10px;
+}
+
+#tab-fill {
+    top: 0;
+    left: 13%;
+    height: 30px;
+    width: 2000px;
+    position: absolute;
+    background-color: #1c1f26;
+}
+
+.main-content p {
+    padding: 2px 0px 0px 10px;
+    color: white;
+    font-weight: 100;
+}
+
+.main-content span {
+	color: #8F908A;
+	font-weight: 600; 
+	padding-right: 10px;
+}
+
+.blinker { 
+  animation-name: blinker;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1,0,0,1);
+  animation-duration: 1s;
+  //Basic styling  
+  display: inline-block;
+  width: 8px;
+  height: 100px;
+  margin-left: 10px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(white,.3);
+  background: $y;
+  color: white;
+}
+
+@keyframes blinker { 
+  from { opacity: 1.0; } to { opacity: 0.0; }
+}
+
+footer {
+   position: fixed;
+   left: 0px;
+   bottom: 0px;
+   height: 20px;
+   width: 100%;
+   background: #999;
+}
+
+
+
+
+
+
+
+
+
